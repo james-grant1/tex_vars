@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage{siunitx}
+\usepackage{pythontex}
+
+\input{formats.tex}
+
+\begin{document}
+
+\input{variables.tex}
+
+The value of y is \py{SI(y, r'\metre')}.
+
+The value of y is \pySI{y}{\metre}.
+
+\end{document}

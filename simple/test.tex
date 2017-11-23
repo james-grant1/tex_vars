@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{siunitx}
+\usepackage{pythontex}
+
+\begin{pycode}
+def SI(var, unit):
+    return '\\SI{' + str(var) + '}{' + unit + '}'
+\end{pycode}
+
+\newcommand{\pySI}[2]{\py{'\\SI{' + str(#1) + '}{#2}'}}
+
+\begin{document}
+\pyc{y = 4}
+
+The value of y is \py{SI(y, r'\metre')}.
+
+The value of y is \pySI{y}{\metre}.
+
+\end{document}
