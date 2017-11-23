@@ -1,7 +1,7 @@
 # tex_vars
 Include variables within latex
 
-Example of how to include variables within latex using pythontex
+Example of how to include variables within latex using pythontex based on [this](https://tex.stackexchange.com/questions/122003/is-there-a-pythontex-equivalent-to-sexpr-in-r)
 
 Two example cases are given:
 
